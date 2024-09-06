@@ -1,8 +1,8 @@
 ## Задача 1 ##
 ### Напишите программу, которая конвертирует сумму денег из китайских юаней в российские рубли по курсу покупки 11.91. ###
 import java.util.Scanner;\
-public class main {
-    public static void main(String[] args){
+public class main {\
+    \public static void main(String[] args){
         final double ROUBLES_PER_YUAN = 11.91;
         int yuan;
         Scanner input = new Scanner(System.in);
