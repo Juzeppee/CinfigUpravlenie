@@ -22,7 +22,7 @@ public class main {\
 ### Перепишите программу, которая конвертирует сумму денег из китайских юаней в российские рубли по курсу покупки 11.91, добавив структуру выбора для принятия решений об окончаниях входной валюты в зависимости от ее значения. ### 
 import java.util.Scanner;\
 public class ConvectYuan {\
-    public static void main(String[] args){
+    public static void main(String[] args){\\\\
         final double ROUBLES_PER_YUAN = 11.91;
         int yuan, digit, digit2;
         Scanner input = new Scanner(System.in);
