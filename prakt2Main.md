@@ -20,7 +20,7 @@ public class Main {
         System.out.print("\nAge of the car: " + uazic_0.carAge());
     }
     public static void To_String (Car_1 car) {
-        System.out.print("Model: " + car.model + "\nLicense: " + car.license + "\nColor: " + car.color + "\nYear: "
+        System.out.print("Model: " + car.getModel() + "\nLicense: " + car.getLicense() + "\nColor: " + car.getColor() + "\nYear: "
                 + car.year + '\n');
     }
 }
