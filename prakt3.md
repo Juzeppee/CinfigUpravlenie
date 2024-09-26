@@ -1,5 +1,5 @@
-```Main.java```
-
+*Main.java*
+```
 package app;
 import vehicles.Car;
 import vehicles.ElectricCar;
@@ -9,19 +9,19 @@ public class Main {
         Car myCar = new Car("Стасянчик", "123456", "Бензиновый");
         ElectricCar myElectricCar = new ElectricCar("Гошанчик", "654321", "Электрический", 100);
 
-        System.out.println("Владелец машины: " + myCar.getOwnerName());
-        System.out.println("Номер страховки: " + myCar.getInsuranceNumber());
-        System.out.println("Тип двигателя: " + myCar.getEngineType());
-
-        System.out.println("Владелец электрической машины: " + myElectricCar.getOwnerName());
-        System.out.println("Номер страховки электрической машины: " + myElectricCar.getInsuranceNumber());
-        System.out.println("Тип двигателя: " + myElectricCar.getEngineType());
-        System.out.println("Остаток зарядки: " + myElectricCar.getBatteryCapacity());
+System.out.println("Владелец машины: " + myCar.getOwnerName());
+System.out.println("Номер страховки: " + myCar.getInsuranceNumber());
+System.out.println("Тип двигателя: " + myCar.getEngineType());
+System.out.println("Владелец электрической машины: " + myElectricCar.getOwnerName());
+System.out.println("Номер страховки электрической машины: " + myElectricCar.getInsuranceNumber());
+System.out.println("Тип двигателя: " + myElectricCar.getEngineType());
+System.out.println("Остаток зарядки: " + myElectricCar.getBatteryCapacity());
     }
 }
+```
 
-
-```ElectricCar.java```
+*ElectricCar.java*
+```
 package vehicles;
 
 public class ElectricCar extends Car {
@@ -40,8 +40,10 @@ public class ElectricCar extends Car {
         this.batteryCapacity = batteryCapacity;
     }
 }
+```
 
-```Car.java```
+*Car.java*
+```
 package vehicles;
 
 public class Car {
@@ -80,3 +82,4 @@ public class Car {
         this.engineType = engineType;
     }
 }
+
